@@ -1,0 +1,58 @@
+Compiled from "Twang.java"
+public class Twang {
+  public Twang();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: aload_0
+       1: iconst_0
+       2: aaload
+       3: invokestatic  #7                  // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+       6: istore_1
+       7: iconst_1
+       8: istore_2
+       9: iload_2
+      10: iload_1
+      11: if_icmpgt     85
+      14: iload_2
+      15: iconst_3
+      16: irem
+      17: ifne          37
+      20: iload_2
+      21: iconst_5
+      22: irem
+      23: ifne          37
+      26: getstatic     #13                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      29: ldc           #19                 // String HARP
+      31: invokevirtual #21                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      34: goto          78
+      37: iload_2
+      38: iconst_3
+      39: irem
+      40: ifne          54
+      43: getstatic     #13                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      46: ldc           #27                 // String BANJOR
+      48: invokevirtual #21                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      51: goto          78
+      54: iload_2
+      55: iconst_5
+      56: irem
+      57: ifne          71
+      60: getstatic     #13                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      63: ldc           #29                 // String GUITAR
+      65: invokevirtual #21                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      68: goto          78
+      71: getstatic     #13                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      74: iload_2
+      75: invokevirtual #31                 // Method java/io/PrintStream.println:(I)V
+      78: iload_2
+      79: iconst_1
+      80: iadd
+      81: istore_2
+      82: goto          9
+      85: return
+}
